@@ -4,7 +4,7 @@ const path = require('path');
 const backendPath = path.join(__dirname, 'backend');
 const outputPath = path.join(__dirname, 'src', 'data', 'frota.json');
 
-const BASE_URL = "https://SEU-NGROK-AQUI.ngrok-free.app"; // O usuário precisará mudar isso
+const BASE_URL = "https://7faa-177-86-10-25.ngrok-free.app"; // Link gerado pelo Ngrok
 
 function getFiles(dir) {
   let results = [];
